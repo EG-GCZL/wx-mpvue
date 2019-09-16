@@ -1,9 +1,9 @@
 {
-  "name": "my-reading",
+  "name": "reading-book",
   "version": "1.0.0",
   "mpvueTemplateProjectVersion": "0.1.0",
   "description": "A Mpvue project",
-  "author": "EG-GCZL <2118130778@qq.com>",
+  "author": "2118130778@qq.com",
   "private": true,
   "scripts": {
     "dev:wx": "node build/dev-server.js wx",
