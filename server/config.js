@@ -3,22 +3,22 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
-  appId: '',
+    appId: '1300201210',
 
     // 微信小程序 App Secret
-    appSecret: '',
+    appSecret: 'AKIDCBD7g3iOPEAqHWucWHq9E5aswtdJmVtd',
 
     // 是否使用腾讯云代理登录小程序
     useQcloudLogin: true,
-  serverHost: 'localhost',
-  tunnelServerUrl: '',
-  tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
-  // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-  qcloudAppId: '1300201210',
-  qcloudSecretId: 'AKIDCBD7g3iOPEAqHWucWHq9E5aswtdJmVtd',
-  qcloudSecretKey: 'kGafWIxON7cx3HI8s532g55RYQ7dwufB',
-  wxMessageToken: 'weixinmsgtoken',
-  networkTimeout: 30000,
+    serverHost: 'localhost',
+    tunnelServerUrl: '',
+    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    // 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
+    qcloudAppId: '1300201210',
+    qcloudSecretId: 'AKIDCBD7g3iOPEAqHWucWHq9E5aswtdJmVtd',
+    qcloudSecretKey: 'kGafWIxON7cx3HI8s532g55RYQ7dwufB',
+    wxMessageToken: 'weixinmsgtoken',
+    networkTimeout: 30000,
 
     /**
      * MySQL 配置，用来存储 session 和用户信息
@@ -29,8 +29,8 @@ const CONF = {
         host: 'localhost',
         port: 3306,
         user: 'root',
-        db: 'cAuth',
-        pass: '123456',
+        db: 'cauth',
+        pass: '1234567',
         char: 'utf8mb4'
     },
 

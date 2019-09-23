@@ -1,25 +1,34 @@
 {
     "pages":[
-        "pages/index/main"
+      "pages/me/main",
+      "pages/books/main",
+
+      "pages/comments/main"
     ],
     "window": {
         "backgroundTextStyle":"light",
-        "navigationBarBackgroundColor":"#ea5149",
+        "navigationBarBackgroundColor":"#00FF00",
         "navigationBarTitleText":"小屋图书",
         "navigationBarTextStyle":"white"
     },
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/main",
-        "text": "首页"
+        "pagePath": "pages/books/main",
+        "iconPath": "static/img/book.png",
+        "selectedIconPath": "static/img/book-active.png",
+        "text": "图书"
       },
       {
-        "pagePath": "pages/index/main",
-        "text": "消息"
+        "pagePath": "pages/comments/main",
+        "iconPath": "static/img/todo.png",
+        "selectedIconPath": "static/img/todo-active.png",
+        "text": "评论列表"
       },
       {
-        "pagePath": "pages/index/main",
+        "pagePath": "pages/me/main",
+        "iconPath": "static/img/me.png",
+        "selectedIconPath": "static/img/me-active.png",
         "text": "我的"
       }
     ]
